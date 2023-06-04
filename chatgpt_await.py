@@ -1,4 +1,5 @@
 import time
+import asyncio
 
 async def fetch_data(url):
     print(f"Fetching data from {url}")
